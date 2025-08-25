@@ -3,7 +3,7 @@ import { Component } from "@angular/core";
 // es convencion poner 2 palabras separados por - pa evitar sobreescribir tags de html default
 @Component({
     selector: 'app-header',
-    standalone: false,
+    standalone: false,  //or remove this line
     templateUrl: './header.html',
     styleUrl: './header.css'
 })
